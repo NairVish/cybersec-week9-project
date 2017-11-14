@@ -1,5 +1,7 @@
 # Week 9 Project: Honeypots
 
+Total time spent: **7.5** hours
+
 For this project, we deployed a few honeypots using the [Modern Honey Network](https://threatstream.github.io/mhn/). We deployed 4 f1-micro instances on Google Compute Engine running Ubuntu 14.04 Trusty. One of these was used as the admin VM, while the other three were deployed as honeypots. The following honeypots were deployed:
 * [Dionaea](https://github.com/DinoTools/dionaea) (honeypot-1)
 * [Snort](https://github.com/threatstream/mhn/wiki/Snort-Sensor) (honeypot-3)
