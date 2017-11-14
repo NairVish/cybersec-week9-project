@@ -19,6 +19,8 @@ The three honeypots were deployed and kept open for a 4-hour period (at night Ea
 
 It seems that a signature of "ET DROP Dshield Block Listed Source group 1" signifies that the originating IP is an emerging threat, while the other signature ("ET CINS Active Threat Intelligence Poor Reputation IP TCP group 4") denotes that the IP already has a bad reputation with Sentinel IPS's CINS Intelligence System.
 
+The raw data can be found in the `session.json` file.
+
 ## Other Notes/Questions
 
 None.
