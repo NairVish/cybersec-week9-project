@@ -1,13 +1,13 @@
 # Week 9 Project: Honeypots
 
-For this project, we deployed a few honeypots using the Modern Honeypot Network. We deployed 4 f1-micro instances on Google Compute Engine running Ubuntu 14.04. One of these was used as the admin VM, while the other three were deployed as honeypots. The following honeypots were deployed:
-* Dionaea (honeypot-1)
-* Snort (honeypot-3)
-* p0f (honeypot-4)
+For this project, we deployed a few honeypots using the [Modern Honey Network](https://threatstream.github.io/mhn/). We deployed 4 f1-micro instances on Google Compute Engine running Ubuntu 14.04 Trusty. One of these was used as the admin VM, while the other three were deployed as honeypots. The following honeypots were deployed:
+* [Dionaea](https://github.com/DinoTools/dionaea) (honeypot-1)
+* [Snort](https://github.com/threatstream/mhn/wiki/Snort-Sensor) (honeypot-3)
+* [p0f](https://github.com/threatstream/mhn/wiki/p0f-Sensor) (honeypot-4)
 
 ## Issues Encountered
 
-I also attempted to deploy Cowrie onto a fourth honeypot; however, I ran into some issues with a specific error being emitted by a dependency (about the Python version) while it was installing. When I ran the installer a second time, it seemed to finish successfully, but the honeypot did not seem to be picking up anything (or working).
+I also attempted to deploy [Cowrie](https://github.com/micheloosterhof/cowrie) onto a fourth honeypot; however, I ran into some issues with a specific error being emitted by a dependency (about the Python version) while it was installing. When I ran the installer a second time, it seemed to finish successfully, but the honeypot did not seem to be working/picking up anything.
 
 ## Summary of Data
 
